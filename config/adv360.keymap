@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-  &kp EQUAL   &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                   &tog 1                                                                                    &mo 3  &kp N6    &kp N7     &kp N8       &kp N9         &kp N0         &kp MINUS
-    &kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T                    &none                                                                                    &none   &kp Y     &kp U      &kp I        &kp O          &kp P     &kp BACKSLASH
- &kp ESCAPE    &kp A     &kp S     &kp D      &kp F   &kp G             &kp CAPSLOCK  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_GUI  &kp RIGHT_ALT      &none   &kp H     &kp J      &kp K        &kp L       &kp SEMI  &kp SINGLE_QUOTE
-  &kp LSHFT    &kp Z     &kp X     &kp C      &kp V   &kp B                                                    &none                          &none                             &kp N     &kp M  &kp COMMA      &kp DOT       &kp FSLH         &kp RSHFT
-  &kp GRAVE  &kp END  &kp HOME  &kp LEFT  &kp RIGHT                    &kp BACKSPACE      &kp LEFT_GUI         &mo 2                          &mo 2      &kp ENTER  &kp SPACE          &kp DOWN     &kp UP  &kp PAGE_UP  &kp PAGE_DOWN    &kp UNDERSCORE
+      &none    &none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS   &none                   &tog 1                                                                                    &mo 3   &none  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET          &none             &none
+    &kp TAB    &kp Q             &kp W           &kp E                 &kp R   &kp T                    &none                                                                                    &none   &kp Y                  &kp U            &kp I              &kp O          &kp P     &kp BACKSLASH
+ &kp ESCAPE    &kp A             &kp S           &kp D                 &kp F   &kp G             &kp CAPSLOCK  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_GUI  &kp RIGHT_ALT      &none   &kp H                  &kp J            &kp K              &kp L       &kp SEMI  &kp SINGLE_QUOTE
+  &kp LSHFT    &kp Z             &kp X           &kp C                 &kp V   &kp B                                                    &none                          &none                             &kp N                  &kp M        &kp COMMA            &kp DOT       &kp FSLH         &kp RSHFT
+      &none  &kp END          &kp HOME        &kp LEFT             &kp RIGHT                    &kp BACKSPACE      &kp LEFT_GUI         &mo 2                          &mo 2      &kp ENTER  &kp SPACE                       &kp DOWN           &kp UP        &kp PAGE_UP  &kp PAGE_DOWN             &none
             >;
         };
 
