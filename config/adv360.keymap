@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-      &none  &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN                   &tog 1                                                                                    &mo 3  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &kp TILDE      &none
-    &kp TAB      &kp Q             &kp W           &kp E                 &kp R          &kp T                    &none                                                                                    &none             &kp Y                  &kp U            &kp I              &kp O          &kp P      &none
- &kp ESCAPE      &kp A             &kp S           &kp D                 &kp F          &kp G             &kp CAPSLOCK  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_GUI  &kp RIGHT_ALT      &none             &kp H                  &kp J            &kp K              &kp L       &kp SEMI      &none
-  &kp LSHFT      &kp Z             &kp X           &kp C                 &kp V          &kp B                                                    &none                          &none                                       &kp N                  &kp M        &kp COMMA            &kp DOT       &kp FSLH  &kp RSHFT
-      &none    &kp END          &kp HOME        &kp LEFT             &kp RIGHT                           &kp BACKSPACE      &kp LEFT_GUI         &mo 2                          &mo 2      &kp ENTER  &kp SPACE                                 &kp DOWN           &kp UP        &kp PAGE_UP  &kp PAGE_DOWN      &none
+      &none  &kp TILDE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN                   &tog 1                                                                                           &mo 3  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET      &kp GRAVE             &none
+    &kp TAB      &kp Q             &kp W           &kp E                 &kp R          &kp T                    &none                                                                                &macro_prev_lang             &kp Y                  &kp U            &kp I              &kp O          &kp P             &none
+ &kp ESCAPE      &kp A             &kp S           &kp D                 &kp F          &kp G             &kp CAPSLOCK  &kp LEFT_CONTROL  &kp LEFT_ALT                  &kp RIGHT_GUI  &kp RIGHT_ALT  &macro_next_lang             &kp H                  &kp J            &kp K              &kp L       &kp SEMI  &kp SINGLE_QUOTE
+  &kp LSHFT      &kp Z             &kp X           &kp C                 &kp V          &kp B                                                    &none                          &none                                              &kp N                  &kp M        &kp COMMA            &kp DOT       &kp FSLH         &kp RSHFT
+      &none    &kp END          &kp HOME        &kp LEFT             &kp RIGHT                           &kp BACKSPACE      &kp LEFT_GUI         &mo 2                          &mo 2      &kp ENTER         &kp SPACE                                 &kp DOWN           &kp UP        &kp PAGE_UP  &kp PAGE_DOWN             &none
             >;
         };
 
@@ -75,16 +75,6 @@
   &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
-            >;
-        };
-
-        layer_Layer__4 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
