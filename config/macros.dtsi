@@ -8,13 +8,13 @@ macro_next_lang: macro_next_lang{
 compatible = "zmk,behavior-macro";
 label = "macro_next_lang";
 #binding-cells = <0>;
-bindings = <&sk LEFT_GUI>, <&sk LEFT_ALT>, <&kp RIGHT>;
+bindings = <&kp LG(LA(RIGHT))>;
 };
 macro_prev_lang: macro_prev_lang{
 compatible = "zmk,behavior-macro";
 label = "macro_prev_lang";
 #binding-cells = <0>;
-bindings = <&sk LEFT_GUI>, <&sk LEFT_ALT>, <&kp LEFT>;
+bindings = <&kp LG(LA(LEFT))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
